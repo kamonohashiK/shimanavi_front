@@ -1,6 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import SearchForm from "../components/search_form";
+import Navbar from "../components/navbar";
+import styles from "../styles/Home.module.css";
+import IslandsPerArea from "../components/islands_per_area";
 
 export default function Home() {
   return (
@@ -12,25 +14,10 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div>ヘッダー</div>
-        <div>島の名前・地域名・都道府県名から探す</div>
-        <div>地図から探す</div>
-        <a href="island.html">島名</a>
-        <div>地域から探す</div>
+        <Navbar />
+        <SearchForm />
+        <IslandsPerArea />
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
     </div>
   );
 }
