@@ -1,3 +1,11 @@
 export default function Navbar() {
-  return <div>ナビゲーションバー</div>;
+  return (
+    <nav className="navbar navbar-light bg-light">
+      <div className="container-fluid">
+        <a className="navbar-brand" href="#">
+          しまなび
+        </a>
+      </div>
+    </nav>
+  );
 }
