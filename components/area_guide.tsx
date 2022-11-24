@@ -9,8 +9,8 @@ export default function AreaGuide() {
         <li className="breadcrumb-item">
           <a href="#">松山市</a>
         </li>
-        <li className="breadcrumb-item active" aria-current="page">
-          忽那諸島
+        <li className="breadcrumb-item">
+          <a href="">忽那諸島</a>
         </li>
       </ol>
     </nav>
