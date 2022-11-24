@@ -1,16 +1,18 @@
 export default function AreaGuide() {
+  // TODO: 各リンクをホバーすると同じグループにある島のリストをサジェストされるようにしたい
   return (
-    <div>
-      <div>
-        <a href="">都道府県名</a>
-        <a href="">市町村名</a>
-      </div>
-      <div>
-        <a href="">地域名</a>
-      </div>
-      <small>
-        都道府県等をホバーすると同じ結果がサジェストされるようにしたい
-      </small>
-    </div>
+    <nav aria-label="breadcrumb">
+      <ol className="breadcrumb">
+        <li className="breadcrumb-item">
+          <a href="#">愛媛県</a>
+        </li>
+        <li className="breadcrumb-item">
+          <a href="#">松山市</a>
+        </li>
+        <li className="breadcrumb-item active" aria-current="page">
+          忽那諸島
+        </li>
+      </ol>
+    </nav>
   );
 }
