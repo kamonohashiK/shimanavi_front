@@ -15,12 +15,48 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+#search_form {
+  height: 300px;
+  background-color: aqua;
+}
+
+#search_form form {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 200px;
+  width: 80%;
+}
+
+#search_form form input {
+  text-align: center;
+}
+
+#islands_per_area {
+  padding: 40px;
+}
+
+#area_guide {
+  line-height: 180%;
+  padding: 10px;
+}
+
+#area_guide ol {
+  margin: auto;
+}
+
+#comment_area {
+  padding: 20px;
+}
+
+.card {
+  margin: 10px auto;
+}
+
+#image_area {
+  margin: 10px auto;
+  padding: 20px;
 }
