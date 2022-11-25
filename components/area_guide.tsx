@@ -1,16 +1,16 @@
-export default function AreaGuide() {
+export default function AreaGuide({ props }) {
   // TODO: 各リンクをホバーすると同じグループにある島のリストをサジェストされるようにしたい
   return (
     <nav id="area_guide" aria-label="breadcrumb">
       <ol className="breadcrumb">
         <li className="breadcrumb-item">
-          <a href="#">愛媛県</a>
+          <a href="#">{props.prefecture}</a>
         </li>
         <li className="breadcrumb-item">
-          <a href="#">松山市</a>
+          <a href="#">{props.city}</a>
         </li>
         <li className="breadcrumb-item">
-          <a href="">忽那諸島</a>
+          <a href="">{props.group}</a>
         </li>
       </ol>
     </nav>
