@@ -1,7 +1,7 @@
 export default function AreaGuide() {
   // TODO: 各リンクをホバーすると同じグループにある島のリストをサジェストされるようにしたい
   return (
-    <nav aria-label="breadcrumb">
+    <nav id="area_guide" aria-label="breadcrumb">
       <ol className="breadcrumb">
         <li className="breadcrumb-item">
           <a href="#">愛媛県</a>

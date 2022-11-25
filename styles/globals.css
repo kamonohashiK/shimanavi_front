@@ -38,3 +38,25 @@ a {
 #islands_per_area {
   padding: 40px;
 }
+
+#area_guide {
+  line-height: 180%;
+  padding: 10px;
+}
+
+#area_guide ol {
+  margin: auto;
+}
+
+#comment_area {
+  padding: 20px;
+}
+
+.card {
+  margin: 10px auto;
+}
+
+#image_area {
+  margin: 10px auto;
+  padding: 20px;
+}
