@@ -1,10 +1,12 @@
+import Link from "next/link";
+
 export default function Navbar() {
   return (
     <nav className="navbar navbar-light bg-light">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" href="/">
           しまなび
-        </a>
+        </Link>
       </div>
     </nav>
   );

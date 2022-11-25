@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function IslandsPerArea() {
   return (
     <div id="islands_per_area">
@@ -14,18 +16,18 @@ export default function IslandsPerArea() {
         <div className="col-md-6">
           <h5 className="text-center">愛媛県</h5>
           <div className="row">
-            <a href="island" className="text-center col-md-4">
+            <Link href="/island/a" className="text-center col-md-4">
               中島(松山市)
-            </a>
-            <a href="island" className="text-center col-md-4">
+            </Link>
+            <Link href="/island/b" className="text-center col-md-4">
               睦月島(松山市)
-            </a>
-            <a href="island" className="text-center col-md-4">
+            </Link>
+            <Link href="/island/c" className="text-center col-md-4">
               野忽那島(松山市)
-            </a>
-            <a href="island" className="text-center col-md-4">
+            </Link>
+            <Link href="/island/d" className="text-center col-md-4">
               大島(今治市)
-            </a>
+            </Link>
           </div>
         </div>
         <div className="col-md-6">
